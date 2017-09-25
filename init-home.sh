@@ -23,3 +23,6 @@ rm -rf rQ3RFv
 
 # install plugins #
 vim +PluginInstall +qall
+
+# CtrlP #
+git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
