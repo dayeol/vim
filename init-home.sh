@@ -34,6 +34,11 @@ git config --global diff.tool vimdiff
 git config --global difftool.prompt false
 git config --global alias.d difftool
 
+# git config #
+git config --global core.editor /usr/bin/vim
+git config --global user.name "Dayeol Lee"
+git config --global user.email "dayeol@berkeley.edu"
+
 # finish & reminder #
 echo "******** You're all set! IF.... ********"
 echo "* you set ZSH_THEME='dayeol' in .zshrc *"
