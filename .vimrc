@@ -2,6 +2,7 @@ set ts=2
 set sw=2
 set mouse=a
 
+set hlsearch
 
 set nocompatible              " be iMproved, required
 filetype off                  " required

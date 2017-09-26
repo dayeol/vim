@@ -1,8 +1,6 @@
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# start zsh!
-zsh
 ####################
 ### Vim settings ###
 ####################
@@ -30,6 +28,11 @@ vim +PluginInstall +qall
 
 # CtrlP #
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+
+# set vimdiff as difftool #
+git config --global diff.tool vimdiff
+git config --global difftool.prompt false
+git config --global alias.d difftool
 
 # finish & reminder #
 echo "******** You're all set! IF.... ********"
