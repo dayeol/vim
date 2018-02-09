@@ -1,5 +1,6 @@
-# install oh-my-zsh
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# For Ubuntu Only
+sudo apt-get install python ctags
+
 
 ####################
 ### Vim settings ###
@@ -19,6 +20,7 @@ cp -R rQ3RFv/.vim ~/
 cp rQ3RFv/.vimrc ~/
 # oh-my-zsh theme #
 cp rQ3RFv/dayeol.zsh-theme ~/.oh-my-zsh/themes/
+sed "s/robbyrussell/dayeol/g" -i ~/.zshrc
 
 # clean repo
 rm -rf rQ3RFv
