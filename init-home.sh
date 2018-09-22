@@ -46,9 +46,9 @@ git config --global user.email "dayeol@berkeley.edu"
 
 # TMUX setting #
 git clone https://github.com/NHDaly/tmux-better-mouse-mode ~/tmux-better-mouse-mode
-echo "run-shell ~/tmux-better-mouse-mode/scroll_copy_mode.tmux" >> ~/.tmux.conf
-echo "set-option -g status-position top" >> ~/.tmux.conf
+cp ./tmux.conf ~/.tmux.conf
+#echo "run-shell ~/tmux-better-mouse-mode/scroll_copy_mode.tmux" >> ~/.tmux.conf
+#echo "set-option -g status-position top" >> ~/.tmux.conf
+
 # finish & reminder #
-echo "******** You're all set! IF.... ********"
-echo "* you set ZSH_THEME='dayeol' in .zshrc *"
-echo "****************************************"
+echo "******** You're all set! ********"
