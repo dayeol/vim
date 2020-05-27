@@ -1,9 +1,11 @@
 set ts=2
 set sw=2
-set mouse=a
+set mouse=r
 
 set t_Co=256
 set hlsearch
+
+autocmd BufWritePre * %s/\s\+$//e
 
 set nocompatible              " be iMproved, required
 filetype off                  " required

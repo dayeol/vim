@@ -23,7 +23,7 @@ cp rQ3RFv/dayeol.zsh-theme ~/.oh-my-zsh/themes/
 sed "s/robbyrussell/dayeol/g" -i ~/.zshrc
 
 # tmux plugin for oh-my-zsh
-sed "/^plugins=(/ a \ \ tmux" -i ~/.zshrc
+sed "s/plugins=(/plugins=(tmux\ /g" -i ~/.zshrc
 
 # clean repo
 rm -rf rQ3RFv
