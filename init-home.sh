@@ -20,6 +20,7 @@ cp -R rQ3RFv/.vim ~/
 cp rQ3RFv/.vimrc ~/
 # oh-my-zsh theme #
 cp rQ3RFv/dayeol.zsh-theme ~/.oh-my-zsh/themes/
+cp rQ3RFv/tmux.conf ~/.tmux.conf
 sed "s/robbyrussell/dayeol/g" -i ~/.zshrc
 
 # tmux plugin for oh-my-zsh
@@ -46,7 +47,6 @@ git config --global user.email "dayeol@berkeley.edu"
 
 # TMUX setting #
 git clone https://github.com/NHDaly/tmux-better-mouse-mode ~/tmux-better-mouse-mode
-cp ./tmux.conf ~/.tmux.conf
 #echo "run-shell ~/tmux-better-mouse-mode/scroll_copy_mode.tmux" >> ~/.tmux.conf
 #echo "set-option -g status-position top" >> ~/.tmux.conf
 
